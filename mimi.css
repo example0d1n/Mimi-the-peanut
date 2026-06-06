@@ -1,0 +1,32 @@
+*{
+    margin: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #A77F60;
+}
+#topwrapper{
+    background-color: #8A5F41;
+}
+.header {
+    display: flex;
+    text-align: left;    
+    list-style-type: none;     /* Removes default bullet points */
+    padding: 0;                /* Removes default browser indentation */
+    margin: 0;
+    gap: 15px;
+}
+.group-1 {
+    padding: 1em;
+    border: white solid 2px;
+    border-radius: 20%;
+}
+.about-mimi{
+    text-align: left;
+}
+#MIMI{
+    width: 25%;
+    height: 25%;
+    border: solid 5px #cba283;
+    border-radius: 50%;
+}
