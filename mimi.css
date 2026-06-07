@@ -1,11 +1,12 @@
 *{
-    margin: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
     background-color: #A77F60;
 }
 #topwrapper{
+    padding: 15px;
+    margin: 0;
     background-color: #8A5F41;
 }
 .header {
@@ -16,10 +17,14 @@ body{
     margin: 0;
     gap: 15px;
 }
+h2 {
+    text-align: center;
+}
 .group-1 {
     padding: 1em;
     border: white solid 2px;
     border-radius: 20%;
+    inline: block;
 }
 .about-mimi{
     text-align: left;
@@ -29,4 +34,19 @@ body{
     height: 25%;
     border: solid 5px #cba283;
     border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+#sample-img {
+    border: solid 5px 
+}
+footer {
+    background-color: #8A5F41;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.row {
+    border: solid #CCD67F 5px;
+    width: 50px;
+    height: 50px;
 }
