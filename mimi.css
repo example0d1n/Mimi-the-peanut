@@ -8,6 +8,11 @@ body{
     padding: 15px;
     margin: 0;
     background-color: #8A5F41;
+    font-size: 30px;
+}
+header {
+    height: 50px;
+    
 }
 .header {
     display: flex;
@@ -19,6 +24,18 @@ body{
 }
 h2 {
     text-align: center;
+    font-size: 40px;
+}
+p{
+    font-size: 35px;
+}
+figcaption{
+    font-size: 35px;
+}
+hr {
+    color: #CCD67F;
+    margin-left: 0;
+    margin-right: 0;
 }
 .group-1 {
     padding: 1em;
@@ -36,21 +53,29 @@ h2 {
     display: block;
     margin: auto;
 }
-#sample-img {
-    border: solid 5px 
-}
 footer {
     background-color: #8A5F41;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.row {
-    width: 150px;
-    height: 150px;
-    margin: 50px;
+#sample-photos {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
-.test {
-    width: 50px;
-    height: 50px;
+
+.row {
+    width: 50%;
+    height: 50%;
+    margin: 50px;
+    border-top: solid 15px #F3E4C9;
+    border-bottom: solid 15px #F3E4C9;
+    border-left: solid 15px #CCD67F;
+    border-right: solid 15px #CCD67F;
+    border-radius: 25%;
+}
+form {
+    text-align: center;
+    
 }
