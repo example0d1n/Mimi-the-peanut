@@ -1,7 +1,5 @@
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
 @font-face {
     font-family: bubbleFont;
@@ -15,7 +13,7 @@
     font-family: comic-roasting;
     src: url(fonts/comic-roasting/Comic\ Roasting.otf);
 }
-body{
+body {
     background-color: #A77F60;
 }
 #topwrapper{
@@ -36,27 +34,6 @@ header {
     margin: 0;
     gap: 15px;
 }
-h2 {
-    text-align: center;
-    font-size: 40px;
-    font-family: baby-gemoy;
-    margin-left: 15px;
-}
-p{
-    font-size: 35px;
-    font-family: comic-roasting;
-    margin-left: 15px;
-}
-figcaption{
-    font-size: 35px;
-    font-family: comic-roasting;
-    margin-left: 15px;
-}
-hr {
-    color: #CCD67F;
-    margin-left: 0;
-    margin-right: 0;
-}
 .group-1 {
     padding: 1em;
     border: white solid 2px;
@@ -71,34 +48,8 @@ li a{
     font-weight: 1000;
     -webkit-text-stroke: 1px  white ;
 }
-.about-mimi{
-    text-align: left;
-}
-#MIMI{
-    width: 25%;
-    height: 25%;
-    border: solid 5px #cba283;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-}
 footer {
     background-color: #8A5F41;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-#sample-photos {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-.row {
-    width: 50%;
-    height: 50%;
-    margin: 50px;
-    border-top: solid 15px #F3E4C9;
-    border-bottom: solid 15px #F3E4C9;
-    border-left: solid 15px #CCD67F;
-    border-right: solid 15px #CCD67F;
-    border-radius: 25%;
 }
