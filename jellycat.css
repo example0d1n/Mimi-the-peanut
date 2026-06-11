@@ -14,13 +14,15 @@
     src: url(fonts/comic-roasting/Comic\ Roasting.otf);
 }
 body {
-    background-color: #A77F60;
+    background-color: #A77F60; 
+    padding-bottom: 25px;
 }
 #topwrapper{
     padding: 15px;
     margin: 0;
     background-color: #8A5F41;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 header {
     height: 50px;
@@ -36,9 +38,9 @@ header {
 }
 .group-1 {
     padding: 1em;
-    border: white solid 2px;
-    border-radius: 20%;
-    
+}
+.group-1:hover {
+    text-decoration: underline;
 }
 li a{
     text-decoration: none;
@@ -48,8 +50,23 @@ li a{
     font-weight: 1000;
     -webkit-text-stroke: 1px  white ;
 }
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: baby-gemoy;
+    margin-top: 20px;
+}
+#jellycat-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 footer {
     background-color: #8A5F41;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
